@@ -34,7 +34,7 @@ var margin = {top: 20, right: 20, bottom: 30, left: 40},
     	},
     	bubblesConfig: {
     	highlightOnHover: true,
-        highlightFillColor: '#FC8D59',
+        highlightFillColor: 'rgb(242, 242, 242)',
         highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
         highlightBorderWidth: 2,
         highlightBorderOpacity: 1,
@@ -99,13 +99,13 @@ switch(inputValue) {
        			if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -117,13 +117,13 @@ switch(inputValue) {
 				if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -135,13 +135,13 @@ switch(inputValue) {
 				if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -153,13 +153,13 @@ switch(inputValue) {
        			if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -171,13 +171,13 @@ switch(inputValue) {
 				if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -189,13 +189,13 @@ switch(inputValue) {
 				if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -207,13 +207,13 @@ switch(inputValue) {
 				if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -225,13 +225,13 @@ switch(inputValue) {
 				if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -243,13 +243,13 @@ switch(inputValue) {
 				if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -261,13 +261,13 @@ switch(inputValue) {
 				if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
@@ -279,13 +279,13 @@ switch(inputValue) {
 				if (d.fall == "Fell")
        			{
        				loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: 'rgba(250, 15, 160, 1)', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'a' });
        				
        			}
 			else if (d.fall == "Found") {
 					loop.push ({name: d.name, mass: d.mass, year: d.year, latitude: d.reclat, longitude: d.reclong, borderWidth: 1, borderOpacity: 1,
-       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true, highlightFillColor: '#FC8D59', highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+       				 borderColor: '#f4d03f', fillOpacity: 0.75, animate: true, highlightOnHover: true,
        				 highlightBorderWidth: 2, highlightBorderOpacity: 1, highlightFillOpacity: 0.85, exitDelay: 100, fillKey: 'b' });
 				}
 				count++;
