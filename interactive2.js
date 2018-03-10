@@ -70,6 +70,7 @@ var found = "";
 
         .on("mouseover", function(d){
 
+        d3.select(this).style("fill", "rgb(242, 242, 242)").style("stroke-opacity",1).style("stroke", "rgba(250, 15, 160, 0.2)");
          d3.select('#tooltip')
            .style("left", d3.event.pageX - 50 + "px")
            .style("top", d3.event.pageY - 70 + "px")
@@ -90,6 +91,34 @@ var found = "";
        })
       .on("mouseout", function(){
         //Hide the tooltip
+       d3.select(this).style("fill", function(d) {
+
+            if (d.fall == "Fell")
+            {
+                fell++;
+                return "rgba(255,123,8,1)";
+            }
+            else if (d.fall == "Found")
+            {
+                found++;
+                return "rgba(108, 111, 124, 1)";
+            }
+        });
+
+        d3.select(this).style("stroke", function(d)
+        {
+            if (d.fall == "Fell")
+            {
+                fell++;
+                return "rgba(250, 15, 160, 1)";
+            }
+            else if (d.fall == "Found")
+            {
+                found++;
+                return "#f4d03f";
+            }
+        });
+       
          d3.select("#tooltip").classed("hidden", true);
          document.getElementById("tooltip").style.display = 'none';
        });
