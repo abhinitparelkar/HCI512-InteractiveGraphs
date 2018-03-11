@@ -27,7 +27,7 @@ var margin = {top: 20, right: 20, bottom: 30, left: 40},
         borderOpacity: 1,
         borderColor: '#d9d9d9',
         highlightOnHover: true,
-        highlightFillColor: 'rgba(252, 162, 120, 1)',
+        highlightFillColor: '#f7dc6f',
         highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
         highlightBorderWidth: 2,
         highlightBorderOpacity: 1
