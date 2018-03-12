@@ -58,12 +58,10 @@ var found = "";
 
             if (d.fall == "Fell")
             {
-                fell++;
                 return "rgba(250, 15, 160, 1)";
             }
             else if (d.fall == "Found")
             {
-                found++;
                 return "#f4d03f";
             }
         })
@@ -95,12 +93,10 @@ var found = "";
 
             if (d.fall == "Fell")
             {
-                fell++;
                 return "rgba(255,123,8,1)";
             }
             else if (d.fall == "Found")
             {
-                found++;
                 return "rgba(108, 111, 124, 1)";
             }
         });
@@ -109,12 +105,10 @@ var found = "";
         {
             if (d.fall == "Fell")
             {
-                fell++;
                 return "rgba(250, 15, 160, 1)";
             }
             else if (d.fall == "Found")
             {
-                found++;
                 return "#f4d03f";
             }
         });
