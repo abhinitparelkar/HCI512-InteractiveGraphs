@@ -117,9 +117,9 @@ var found = "";
          document.getElementById("tooltip").style.display = 'none';
        });
 
-document.getElementById("fell").innerHTML = fell;
-document.getElementById("found").innerHTML = found;
-document.getElementById("total").innerHTML = fell + found;
+document.getElementById("fell").innerHTML = fell.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+document.getElementById("found").innerHTML = found.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+document.getElementById("total").innerHTML = (fell + found).toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
 
 var total = fell + found
 var percentFell = ((fell/total) *100).toFixed(2);
