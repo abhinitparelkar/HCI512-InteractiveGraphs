@@ -14,7 +14,7 @@ var margin = {top: 20, right: 20, bottom: 30, left: 40},
         height: 650,
         responsive: false,
         fills: {
-          defaultFill: 'rgba(0, 149, 198, 1)',
+          defaultFill: 'rgba(255, 255, 255, 1)',
           a: 'rgba(255,123,8,1)',
           b: 'rgba(108, 111, 124, 1)',
         },
